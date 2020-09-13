@@ -10,23 +10,23 @@ Source code for IJCAI 2020 paper "[A Relation-Specific Attention Network for Joi
 ## Code
 ├── config.py  
 ├── **data**  
-├── DataLoader.py
-├── data_prepare.py
-├── eval_utils.py
-├── **misc**
-│   ├── init.py
-│   ├── LossWrapper.py
-│   └── utils.py
-├── **model**
-│   ├── init.py
-│   └── Rel_based_labeling.py
-├── **networks**
-│   ├── decoder.py
-│   ├── embedding.py
-│   ├── encoder.py
-│   └── __init__.py
-├── Test.py
-└──  train.py
+├── DataLoader.py  
+├── data_prepare.py  
+├── eval_utils.py  
+├── **misc**  
+│   ├── init.py  
+│   ├── LossWrapper.py  
+│   └── utils.py  
+├── **model**  
+│   ├── init.py  
+│   └── Rel_based_labeling.py  
+├── **networks**  
+│   ├── decoder.py  
+│   ├── embedding.py  
+│   ├── encoder.py  
+│   └── __init__.py  
+├── Test.py  
+└──  train.py  
 
 ## Descriptions
 
