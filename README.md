@@ -64,8 +64,8 @@ Construct dataloader from .pkl files stored in the previous step. Note that our 
 
 - **Train**
 
-  `python train.py --checkpoint_path 725gate-att-net-pos --gpu 3 --use_pos`
+  `python train.py --checkpoint_path [ckpt_path] --gpu 3 --use_pos`
 
 - **Test**
 
-  `python Test.py --load_from 0725 --gpu 0 --use_pos`
+  `python Test.py --load_from [ckpt_path] --gpu 0 --use_pos`
