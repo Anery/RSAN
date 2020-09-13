@@ -8,8 +8,8 @@ Source code for IJCAI 2020 paper "[A Relation-Specific Attention Network for Joi
 - six 
 
 ## Code
-├── config.py
-├── **data**
+├── config.py  
+├── **data**  
 ├── DataLoader.py
 ├── data_prepare.py
 ├── eval_utils.py
