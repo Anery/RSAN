@@ -52,7 +52,9 @@ Convert the original input data into the form of model input and save as .pkl fi
 
 See the example below.
 
-![](https://raw.githubusercontent.com/Anery/MyBlogPics/master/20200913110036.png)
+![](https://raw.githubusercontent.com/Anery/MyBlogPics/master/20200913174907.png)
+
+<img src="https://github.com/Anery/RSAN/blob/master/example.jpg" style="zoom:50%;" />
 
 >  DataLoader.py
 
