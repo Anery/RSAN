@@ -8,25 +8,25 @@ Source code for IJCAI 2020 paper "[A Relation-Specific Attention Network for Joi
 - six 
 
 ## Code
-├── config.py
-├── **data**
-├── DataLoader.py
-├── data_prepare.py
-├── eval_utils.py
-├── **misc**
-│   ├── init.py
-│   ├── LossWrapper.py
-│   └── utils.py
-├── **model**
-│   ├── init.py
-│   └── Rel_based_labeling.py
-├── **networks**
-│   ├── decoder.py
-│   ├── embedding.py
-│   ├── encoder.py
-│   └── __init__.py
-├── Test.py
-└──  train.py
+├── config.py  
+├── **data**  
+├── DataLoader.py  
+├── data_prepare.py  
+├── eval_utils.py  
+├── **misc**  
+│   ├── init.py  
+│   ├── LossWrapper.py  
+│   └── utils.py  
+├── **model**  
+│   ├── init.py  
+│   └── Rel_based_labeling.py  
+├── **networks**  
+│   ├── decoder.py  
+│   ├── embedding.py  
+│   ├── encoder.py  
+│   └── __init__.py  
+├── Test.py  
+└──  train.py  
 
 ## Descriptions
 
@@ -53,8 +53,11 @@ Convert the original input data into the form of model input and save as .pkl fi
 See the example below.
 
 ![](https://raw.githubusercontent.com/Anery/MyBlogPics/master/20200913174907.png)
+<<<<<<< HEAD
 
 <img src="https://github.com/Anery/RSAN/blob/master/example.jpg" style="zoom:50%;" />
+=======
+>>>>>>> 6d9ba29315d1c1011ca0117d5209e76dbc3bfc14
 
 >  DataLoader.py
 
@@ -66,8 +69,8 @@ Construct dataloader from .pkl files stored in the previous step. Note that our 
 
 - **Train**
 
-  `python train.py --checkpoint_path 725gate-att-net-pos --gpu 3 --use_pos`
+  `python train.py --checkpoint_path [ckpt_path] --gpu 3 --use_pos`
 
 - **Test**
 
-  `python Test.py --load_from 0725 --gpu 0 --use_pos`
+  `python Test.py --load_from [ckpt_path] --gpu 0 --use_pos`
