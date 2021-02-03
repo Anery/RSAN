@@ -123,7 +123,7 @@ def train(opt):
             for i in range(sents.size(0)):
                 mask[i][:sen_lens[i]] = 1
 
-            mask2 = torch.where(labels == 12, torch.ones_like(sents), torch.ones_like(sents)*10).cuda()
+            mask2 = torch.where(labels == 8, torch.ones_like(sents), torch.ones_like(sents)*10).cuda()
             mask2 = mask2.float() * mask.float()
 
             optimizer.zero_grad()
