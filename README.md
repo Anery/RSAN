@@ -73,7 +73,7 @@ Construct dataloader from .pkl files stored in the previous step. Note that our 
 
 ## Citation
 
-@inproceedings{ijcai2020-561,
+`@inproceedings{ijcai2020-561,
   title     = {A Relation-Specific Attention Network for Joint Entity and Relation Extraction},
   author    = {Yuan, Yue and Zhou, Xiaofei and Pan, Shirui and Zhu, Qiannan and Song, Zeliang and Guo, Li},
   booktitle = {Proceedings of the Twenty-Ninth International Joint Conference on
@@ -87,3 +87,4 @@ Construct dataloader from .pkl files stored in the previous step. Note that our 
   doi       = {10.24963/ijcai.2020/561},
   url       = {https://doi.org/10.24963/ijcai.2020/561},
 }
+`
