@@ -70,3 +70,20 @@ Construct dataloader from .pkl files stored in the previous step. Note that our 
 - **Test**
 
   `python Test.py --load_from [ckpt_path] --gpu 0 --use_pos`
+
+## Citation
+
+@inproceedings{ijcai2020-561,
+  title     = {A Relation-Specific Attention Network for Joint Entity and Relation Extraction},
+  author    = {Yuan, Yue and Zhou, Xiaofei and Pan, Shirui and Zhu, Qiannan and Song, Zeliang and Guo, Li},
+  booktitle = {Proceedings of the Twenty-Ninth International Joint Conference on
+               Artificial Intelligence, {IJCAI-20}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},             
+  editor    = {Christian Bessiere},	
+  pages     = {4054--4060},
+  year      = {2020},
+  month     = {7},
+  note      = {Main track}
+  doi       = {10.24963/ijcai.2020/561},
+  url       = {https://doi.org/10.24963/ijcai.2020/561},
+}
