@@ -82,7 +82,7 @@ Construct dataloader from .pkl files stored in the previous step. Note that our 
       pages     = {4054--4060},
       year      = {2020},
       month     = {7},
-      note      = {Main track}
+      note      = {Main track},
       doi       = {10.24963/ijcai.2020/561},
       url       = {https://doi.org/10.24963/ijcai.2020/561},
     }
